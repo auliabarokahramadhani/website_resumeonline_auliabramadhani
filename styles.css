@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ADD8E6;
+    font-family: 'Montserrat', sans-serif; /* Menggunakan font Montserrat */
+}
+
+.a4-paper {
+    width: 210mm;
+    height: 297mm;
+    background-color: #ADD8E6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.cv-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cv-header img {
+    height: 200; 
+    width: 200; /* ukuran foto profil */
+    border-radius: 100%; /* Agar foto profil menjadi bulat */
+    margin-bottom: 10px;
+}
+
+.cv-header h1 {
+    margin: 0;
+    color: #fff;
+}
+
+.cv-header p {
+    margin: 5px 0;
+    color: #fff;
+}
+
+.cv-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv-column {
+    width: 48%; /* Setiap kolom mengambil 48% lebar */
+}
+
+.cv-column h2 {
+    color: #fff; /* Warna teks h2 */
+    background-color: #4287f5; /* Warna latar belakang h2 */
+    font-size: 24px; /* Ukuran teks h2 */
+    margin-bottom: 10px; /* Jarak antara h2 dengan konten di bawahnya */
+    padding: 10px 20px; /* Padding untuk ruang di dalam persegi */
+    display: inline-flex; /* Agar persegi menyesuaikan dengan teks */
+    border-radius: 5px; /* Membuat sudut persegi terbulat */
+}
+
+.cv-column p {
+    color: #000000;
+    margin: 5px 0;
+}
+
+.square-list {
+    list-style-type: square;
+}
+
+/* Desain untuk kertas a4*/
+.a4-paper {
+    border-radius: 10px; /* Agar sudut kertas menjadi lebih bulat */
+    border: 2px solid #ccc; /* Tambahkan border tipis di sekeliling kertas */
+}
+
+.cv-header {
+    background-color: #4287f5; /* Warna latar belakang header */
+    padding: 20px; /* Padding tambahan untuk header */
+    border-radius: 10px 10px 0 0; /* Agar sudut atas header menjadi lebih bulat */
+}
+
+.cv-header h1 {
+    font-size: 32px; /* Ukuran teks judul */
+    color: #fff; /* Warna teks judul */
+}
+
+.cv-header p {
+    font-size: 18px; /* Ukuran teks subjudul */
+}
+
+.cv-content {
+    margin-top: 5px; /* Jarak antara header dengan konten */
+}
+
+.cv-column {
+    background-color: #f9f9f9; /* Warna latar belakang kolom */
+    padding: 20px; /* Padding tambahan untuk konten dalam kolom */
+    border-radius: 5px; /* Agar sudut kolom menjadi lebih bulat */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan untuk memberi kedalaman */
+}
+
+.cv-column h2 {
+    margin-top: 0; /* Hilangkan margin atas pada judul h2 */
+    font-size: 22px; /* Ukuran teks judul h2 */
+}
+
+.square-list {
+    margin-left: 20px; /* Jarak dari sisi kertas */
+}
+
+.square-list li {
+    margin-bottom: 5px; /* Jarak antar item dalam list */
+}
